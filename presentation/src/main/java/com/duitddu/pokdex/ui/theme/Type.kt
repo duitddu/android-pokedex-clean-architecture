@@ -6,23 +6,72 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
-// Set of Material typography styles to start with
+private val appFontFamily: FontFamily = FontFamily.Default
+
 val Typography = Typography(
+    h1 = TextStyle(
+        fontFamily = appFontFamily,
+        fontSize = 32.sp,
+        fontWeight = FontWeight.Medium
+    ),
+    h2 = TextStyle(
+        fontFamily = appFontFamily,
+        fontSize = 24.sp,
+        fontWeight = FontWeight.Medium
+    ),
+    h3 = TextStyle(
+        fontFamily = appFontFamily,
+        fontSize = 20.sp,
+        fontWeight = FontWeight.Medium
+    ),
+    h4 = TextStyle(
+        fontFamily = appFontFamily,
+        fontSize = 18.sp,
+        fontWeight = FontWeight.Bold
+    ),
+    h5 = TextStyle(
+        fontFamily = appFontFamily,
+        fontSize = 16.sp,
+        fontWeight = FontWeight.Medium
+    ),
+    h6 = TextStyle(
+        fontFamily = appFontFamily,
+        fontSize = 14.sp,
+        fontWeight = FontWeight.Medium
+    ),
+    subtitle1 = TextStyle(
+        fontFamily = appFontFamily,
+        fontSize = 12.sp,
+        fontWeight = FontWeight.Light
+    ),
+    subtitle2 = TextStyle(
+        fontFamily = appFontFamily,
+        fontSize = 11.sp,
+        fontWeight = FontWeight.Light
+    ),
     body1 = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 16.sp
-    )
-    /* Other default text styles to override
+        fontFamily = appFontFamily,
+        fontSize = 14.sp,
+        fontWeight = FontWeight.Normal
+    ),
+    body2 = TextStyle(
+        fontFamily = appFontFamily,
+        fontSize = 13.sp,
+        fontWeight = FontWeight.Normal
+    ),
     button = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.W500,
-        fontSize = 14.sp
+        fontFamily = appFontFamily,
+        fontSize = 14.sp,
+        fontWeight = FontWeight.Medium
     ),
     caption = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 12.sp
+        fontFamily = appFontFamily,
+        fontSize = 12.sp,
+        fontWeight = FontWeight.Bold
+    ),
+    overline = TextStyle(
+        fontFamily = appFontFamily,
+        fontSize = 12.sp,
+        fontWeight = FontWeight.Bold
     )
-    */
 )
